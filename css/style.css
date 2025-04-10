@@ -31,3 +31,10 @@
   video {
     vertical-align: middle;
   }
+
+  footer {
+    font-size: .9rem;
+    margin: 25px 0;
+    color: white;
+    text-align: center;
+  }
