@@ -1,26 +1,205 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mary Keohane</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mary Keohane Portfolio</title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
+    <link rel="icon" href="./favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/github-logo.png" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/github-logo.png" />
+  </head>
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <body class="bg-white min-h-screen">
+    <!-- navigation -->
+    <nav
+      class="w-full bg-white z-10 flex items-center justify-between p-6 lg:px-8 shadow-lg focus:outline-hidden"
+      aria-label="nav"
+      role="menu"
+    >
+      <div class="flex lg:flex-1">
+        <a href="http://github.com" class="-m-1.5 p-1.5" aria-label="nav">
+          <img
+            src="./images/github-logo.png"
+            alt="Github logo"
+            width="32"
+            height="32"
+          />
+        </a>
+      </div>
+    </nav>
 
-</head>
+    <!-- header -->
+    <header
+      class="bg-bottom-right bg-[url(https://images.unsplash.com/photo-1514496959998-c01c40915c5f)]"
+    >
+      <div class="relative isolate px-6 pt-14 lg:px-8">
+        <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 text-center">
+          <h1
+            class="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl"
+          >
+            A simple
+            <span
+              class="font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-500"
+              >HTML</span
+            >
+            website
+          </h1>
+          <p
+            class="mt-8 text-lg font-medium text-pretty text-gray-600 sm:text-xl/8"
+          >
+            No fluff. No filler. Just what I do, and how I do it.
+          </p>
+        </div>
+      </div>
+    </header>
 
-<body>
-  <nav>Nav</nav>
-  <header>
-    <h1>Hello world!</h1>
-  </header>
-  <main>Main</main>
-  <footer><p>Copyright &copy; 2025</p></footer>
-</body>
+    <!-- main -->
+    <main class="focus:outline-hidden">
+      <section class="flex items-center justify-center bg-white">
+        <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
+          <div
+            class="flex flex-wrap justify-center gap-x-8 gap-y-4 gap-8 text-gray-500 dark:text-gray-400"
+          >
+            <span class="font-semibold">Featuring:</span>
+            <a href="#" class="flex justify-center items-center">
+              <img
+                alt="Tailwind CSS"
+                class="h-8"
+                src="https://cdn.svgporn.com/logos/tailwindcss.svg"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
 
+      <!-- projects -->
+      <div class="bg-gray-100">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+            <h2 class="text-2xl font-bold text-gray-900">Previous Projects</h2>
+
+            <div
+              class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:space-y-0 lg:gap-x-6"
+            >
+              <div class="group relative">
+                <img
+                  src="https://imagedelivery.net/PVooPtpJE-25QaNkbEuXvw/2294fdd7-6b5c-4c1e-f66b-5a211510e700/public"
+                  alt="Smartbear software portal"
+                  class="w-full rounded-lg bg-white object-cover group-hover:opacity-75 max-sm:h-80 sm:aspect-2/1 lg:aspect-square"
+                />
+                <h3 class="mt-6 text-sm text-gray-500">
+                  <a href="./projects.htm">
+                    <span class="absolute inset-0"></span>
+                    Smartbear
+                  </a>
+                </h3>
+                <p class="text-base font-semibold text-gray-900">
+                  Swaggerhub - API Design application
+                </p>
+              </div>
+              <div class="group relative">
+                <img
+                  src="https://initiafy-website-images.s3.amazonaws.com/wordpress-upload/2023/09/Portrait-of-young-businessman-in-hardhat-and-safety-vest-standing-on-building-site-and-using-digital-tablet-computer-1688x830.jpg"
+                  alt="Construction site"
+                  class="w-full rounded-lg bg-white object-cover group-hover:opacity-75 max-sm:h-80 sm:aspect-2/1 lg:aspect-square"
+                />
+                <h3 class="mt-6 text-sm text-gray-500">
+                  <a href="./projects.htm">
+                    <span class="absolute inset-0"></span>
+                    GoContractor
+                  </a>
+                </h3>
+                <p class="text-base font-semibold text-gray-900">
+                  Dashboard &amp; Analytics Platform
+                </p>
+              </div>
+              <div class="group relative">
+                <img
+                  src="https://cdn-ilbkemb.nitrocdn.com/hKRJhplyhdEpThZxkIuuMrxcxvCNnkjI/assets/images/optimized/rev-a63c21e/i0.wp.com/roomex.com/wp-content/uploads/2024/ec7442c88787a075df3656d6f2fbe998.Roomex-In-Policy.png"
+                  alt="Travel platform"
+                  class="w-full rounded-lg bg-white object-cover group-hover:opacity-75 max-sm:h-80 sm:aspect-2/1 lg:aspect-square"
+                />
+                <h3 class="mt-6 text-sm text-gray-500">
+                  <a href="./projects.htm">
+                    <span class="absolute inset-0"></span>
+                    Roomex
+                  </a>
+                </h3>
+                <p class="text-base font-semibold text-gray-900">
+                  Dashboard &amp; Reporting Analytics
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- panel with screenshot -->
+      <div class="bg-white">
+        <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+          <div
+            class="relative isolate overflow-hidden bg-gray-100 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0"
+          >
+            <div
+              class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left"
+            >
+              <blockquote class="text-3xl font-semibold italic sm:text-4xl">
+                &quot;Complexity is the enemy of execution&quot;
+              </blockquote>
+              <sm class="mt-10 text-gray-400">&dash; Tony Robins &dash;</sm>
+              <p class="mt-6 text-lg/8 text-pretty">
+                After many years working with Scrum, I&rsquo;ve found it makes
+                complex problems easier by breaking them into sprints and
+                encouraging constant team feedback &dash; keeping teams focused,
+                flexible and moving forward.
+              </p>
+            </div>
+            <div class="relative mt-16 h-80 lg:mt-8">
+              <img
+                class="absolute -top-10 -left-15 w-[50rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
+                src="./images/agile.jpg"
+                alt="Scrum img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gray-100">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+            <h2 class="text-2xl font-bold text-gray-900">
+              It's just the start...
+            </h2>
+            <p class="mt-6 text-lg/8 text-pretty">
+              I'm just getting started on updating my portfolio, and this is
+              only the beginning. As I continue to work on new projects, I'll be
+              updating this space with everything I create. Thanks for stopping
+              by — more to come soon!
+            </p>
+            <br />
+            <a
+              class="github-button"
+              href="https://github.com/mkeo99"
+              data-color-scheme="no-preference: dark_high_contrast; light: dark_high_contrast; dark: dark_high_contrast;"
+              data-size="large"
+              data-show-count="true"
+              aria-label="Follow @mkeo99 on GitHub"
+              >Follow @mkeo99</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="sticky top-[100vh] text-center m-2">
+      <p class="text-gray-500 dark:text-gray-400 mt-2 text-sm">
+        Copyright &copy; 2025
+      </p>
+    </footer>
+  </body>
 </html>
