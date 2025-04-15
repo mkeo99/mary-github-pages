@@ -1,5 +1,11 @@
-<h2 align="left">Hi 👋</h2>
-<p>This is a simple HTML repo to quickly deploy some previous project examples.</p>
+# Pure HTML only example
+
+## Hi 👋
+
+This is a simple HTML repo to quickly deploy some previous project examples!
+This site was built using [GitHub Pages](https://pages.github.com/).
+
+[Check out the live site!](https://mkeo99.github.io/mary-github-pages/)
 
 ###
 
